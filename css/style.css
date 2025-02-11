@@ -324,9 +324,44 @@ footer {
 }
 .parlamento p {
     color: var(--text-color);
-    font: 2rem;
+    font-size: 2rem;
     font-weight: 300;
     line-height: 1.0;
     padding: 2rem 0;
 }
 /* Parlamento Html End */
+/* Tarihte Bugün Html Start */
+.tarih {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.tarih .tarihte-bugun {
+    display: flex 1 1 45rem;
+    align-items: start;
+    justify-content: start;
+    width: 80rem;
+    height: auto;
+}
+.tarih .tarihte-bugun h1 {
+    color: var(--text-color);
+    font-size: 6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.tarih .tarihte-bugun h2 {
+    margin-top: 5rem;
+    color: var(--text-color);
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+.tarih .tarihte-bugun li {
+    list-style-type: disc;
+    margin-bottom: 2rem;
+}                       
+.tarih .tarihte-bugun p {
+    color: var(--text-color);
+    font-size: 2rem;
+}                                           
+/* Tarihte Bugün Html End */
