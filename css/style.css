@@ -44,7 +44,6 @@ html::-webkit-scrollbar-thumb {
 
 body {
     background-color: var(--main-color);
-    height: 200vh;
 }
 
 a {
@@ -122,13 +121,19 @@ footer {
     background-color: var(--main-color);
 }
 
-.footer .links {
+.footer .links{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
 }
-
+.footer .links a {
+    background-color: var(--main-color);
+    padding: 0.7rem 2rem;
+    color: var(--text-color);
+    font-size: 2rem;
+    border: var(--border);
+}
 .footer .links a:hover {
     background-color: var(--black-color);
     opacity: 0.7;
@@ -172,3 +177,43 @@ footer {
     padding: 2rem 0;
 }
 /* Akay Html End */
+/* Ana Sayfa Start */
+.home {
+    min-height: 100vh;
+    margin-top: -12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
+.home .content {
+    max-width: 60rem;
+    flex: 1 1 45rem;
+}
+.home .content h3 {
+    color: var(--text-color);
+    font-size: 6rem;
+    text-align: center;
+}
+.home .content p {
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.0;
+    padding: 2rem 0;
+}
+.home .image {
+    flex: 1 1 45rem;
+    max-width: 60rem;
+    box-shadow: 0px 0px 17px -2px rgb(0, 0, 0, 0.75);
+    border-radius: 15%;
+}
+.home .image img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 15%;
+}
+/* Ana Sayfa End */
