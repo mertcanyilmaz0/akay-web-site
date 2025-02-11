@@ -217,3 +217,92 @@ footer {
     border-radius: 15%;
 }
 /* Ana Sayfa End */
+/* Duyurular Html Start */
+.duyurular {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10rem;
+    row-gap: 6rem;
+    padding: 10rem 30rem;
+}
+
+.duyurular ul, li{
+    list-style-type: none;
+}
+
+.grids:hover .icerik {
+    transform: scale(1.1);
+}
+
+.grids .icerik {
+    margin: 2rem 2rem;
+}
+.grids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black-color);
+}
+.grids .icerik .baslik {
+    border: var(--border);
+    padding: 0.5rem 4rem;
+    display: flex;
+    align-items: center;
+}
+.grids .icerik .ozet {
+    padding: 0.5rem 3rem;
+    min-height: 10rem;
+    margin-top: 2rem;
+    border: var(--border);
+    padding: 0.5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.grids .icerik .baslik .grid-logo img {
+    width: 100%;
+}
+.grids .icerik .baslik .grid-logo {
+    max-width: 4rem;
+    padding: 0.2rem 0.1rem;
+    background-color: var(--text-color);
+    border-radius: 10%;
+}
+.grids .icerik .baslik h3 {
+    color: var(--text-color);
+    font-size: 2rem;
+    padding-left: 3rem;
+}
+.grids .icerik .ozet p,
+.grids .icerik .ozet span{
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+.grids .icerik .ozet .isim {
+    position: absolute;
+    left: 2rem;
+    bottom: 1rem;
+}
+.grids .icerik .ozet p {
+    padding: 1rem 1rem;
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+}
+.grids .icerik .ozet .adamolan {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+.mert .ahmet {
+    color: var(--text-color);
+    padding-top: -10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+/* Duyurular Html End */
