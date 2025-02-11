@@ -359,6 +359,8 @@ footer {
 .tarih .tarihte-bugun li {
     list-style-type: disc;
     margin-bottom: 2rem;
+    color: var(--text-color);
+    font-size: 2rem;
 }                       
 .tarih .tarihte-bugun p {
     color: var(--text-color);
