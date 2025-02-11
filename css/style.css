@@ -306,3 +306,27 @@ footer {
     margin-bottom: 3rem;
 }
 /* Duyurular Html End */
+/* Parlamento Html Start */
+.parlamento {
+    min-height: 100vh;
+    margin-top: -6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parlamento .aciklama,
+.parlamento .baslangic {
+    max-width: 80rem;
+}
+.parlamento h2 {
+    color: var(--text-color);
+    font-size: 6rem;
+}
+.parlamento p {
+    color: var(--text-color);
+    font: 2rem;
+    font-weight: 300;
+    line-height: 1.0;
+    padding: 2rem 0;
+}
+/* Parlamento Html End */
