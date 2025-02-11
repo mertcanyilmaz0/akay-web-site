@@ -1,0 +1,15 @@
+# Özel bilgiler içeren dosyalar
+.env
+config.js
+secrets.json
+
+# Geçici ve önbellek dosyaları
+*.log
+*.tmp
+*.cache
+
+# Editör dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
